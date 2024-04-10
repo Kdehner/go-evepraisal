@@ -14,9 +14,9 @@ The following was tested on Ubuntu Server 18.10
 ```
 - Download Dockerfile, docker-compose.yml, and evepraisal.toml to a directory
 ```
-  $ wget https://raw.githubusercontent.com/evepraisal/go-evepraisal/master/Dockerfile
-  $ wget https://raw.githubusercontent.com/evepraisal/go-evepraisal/master/docker-compose.yml
-  $ wget https://raw.githubusercontent.com/evepraisal/go-evepraisal/master/evepraisal.toml
+  $ wget https://raw.githubusercontent.com/kdehner/go-evepraisal/master/Dockerfile
+  $ wget https://raw.githubusercontent.com/kdehner/go-evepraisal/master/docker-compose.yml
+  $ wget https://raw.githubusercontent.com/kdehner/go-evepraisal/master/evepraisal.toml
 ```
 - build, and bring the container up
 ```
@@ -41,13 +41,13 @@ The following was tested on Ubuntu Server 18.10
 ```
 - Download and build evepraisal
 ```
-  ~$ mkdir -p $GOPATH/src/github.com/evepraisal/go-evepraisal
-  ~$ cd $GOPATH/src/github.com/evepraisal/go-evepraisal
-  ~/go/src/github.com/evepraisal/go-evepraisal$ git clone https://github.com/evepraisal/go-evepraisal.git .
-  ~/go/src/github.com/evepraisal/go-evepraisal$ make setup
-  ~/go/src/github.com/evepraisal/go-evepraisal$ make build
+  ~$ mkdir -p $GOPATH/src/github.com/kdehner/go-evepraisal
+  ~$ cd $GOPATH/src/github.com/kdehner/go-evepraisal
+  ~/go/src/github.com/evepraisal/go-evepraisal$ git clone https://github.com/kdehner/go-evepraisal.git .
+  ~/go/src/github.com/kdehner/go-evepraisal$ make setup
+  ~/go/src/github.com/kdehner/go-evepraisal$ make build
 ```
 - Run evepraisal
 ```
-  ~/go/src/github.com/evepraisal/go-evepraisal$ ./target/evepraisal-linux-amd64
+  ~/go/src/github.com/kdehner/go-evepraisal$ ./target/evepraisal-linux-amd64
 ```
